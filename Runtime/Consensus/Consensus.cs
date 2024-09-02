@@ -6,7 +6,7 @@ namespace Consensus {
     /// <summary>
     /// Users of Consensus are responsible for remove themselves from the list of script vote pairs
     /// </summary>
-    public abstract class Consensus : ScriptableObject {
+    [Serializable] public abstract class Consensus : ScriptableObject {
         [SerializeField] protected List<ScriptVotePair> scriptVotePairs = new();
 
         public bool consensus = true;
