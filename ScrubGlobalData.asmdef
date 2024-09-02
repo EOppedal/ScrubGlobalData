@@ -1,0 +1,16 @@
+{
+    "name": "ScrubGlobalData",
+    "rootNamespace": "",
+    "references": [
+        "GUID:b662069500594f244b64c75152683295"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
