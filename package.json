@@ -7,6 +7,6 @@
     "email": "erlend.oppedal@gmail.com"
   },
   "dependencies": {
-    "com.erlend-eiken-oppedal.clampedfloat": "1.0.0"
+    "com.erlend-eiken-oppedal.clampedfloat": "https://github.com/EOppedal/ClampedFloat.git"
   }
 }
