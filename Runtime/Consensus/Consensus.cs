@@ -39,9 +39,9 @@ namespace Consensus {
         public void DeleteVote(ScriptVotePair scriptVote) => scriptVotePairs.Remove(scriptVote);
 
         public abstract bool ConsensusRule();
-
-        [Serializable] public class ScriptVotePair {
-            public bool vote;
-        }
+    }
+    
+    [Serializable] public class ScriptVotePair {
+        public bool vote;
     }
 }
