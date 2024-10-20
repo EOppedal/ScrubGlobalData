@@ -7,7 +7,7 @@
     "email": "erlend.oppedal@gmail.com"
   },
   "dependencies": {
-    "com.erlend-eiken-oppedal.clampedfloat": "https://github.com/EOppedal/ClampedFloat.git",
-    "com.erlend-eiken-oppedal.runtimeset": "https://github.com/EOppedal/RuntimeSet.git"
+    "com.erlend-eiken-oppedal.runtimeset": "https://github.com/EOppedal/RuntimeSet.git",
+    "com.erlend-eiken-oppedal.extensionsandattributes": "https://github.com/EOppedal/ExtensionsAndAttributes.git"
   }
 }

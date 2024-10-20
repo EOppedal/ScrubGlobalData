@@ -1,6 +1,7 @@
+using Attributes;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "GameObjectRuntimeSet", menuName = "Scrubs/GlobalData/New GameObjectRuntimeSetScrub")]
+[CreateAssetMenu(fileName = "GameObjectRuntimeSet", menuName = "Scrubs/GlobalData/Create GameObjectRuntimeSetScrub")]
 public class GameObjectRuntimeSetScrub : ScriptableObject {
-    [SerializeField] public RuntimeSet<GameObject> runtimeSet;
+    [ResetFieldOnExitPlayMode, SerializeField] public RuntimeSet<GameObject> runtimeSet;
 }
