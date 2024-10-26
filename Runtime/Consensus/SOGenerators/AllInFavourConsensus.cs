@@ -2,7 +2,7 @@
 using UnityEngine;
 
 namespace Consensus {
-    [CreateAssetMenu(fileName = "AllInFavourConsensus", menuName = "Scrubs/GlobalData/Consensus/Create AllInFavourConsensus")]
+    [CreateAssetMenu(fileName = nameof(AllInFavourConsensus), menuName = "Scriptable Objects/GlobalData/Consensus/Create " + nameof(AllInFavourConsensus))]
     public class AllInFavourConsensus : Consensus  {
         public override bool ConsensusRule() => scriptVotePairs.All(scriptVotePair => scriptVotePair.vote);
     }
