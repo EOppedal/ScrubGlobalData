@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using Attributes;
 using UnityEngine;
 
-namespace Consensus {
+namespace Consensus.SO {
     /// <summary>
     /// AddVote gets called by change vote if not already added manually
     /// </summary>
-    [Serializable]
-    public abstract class Consensus {
+    [ResetFieldsOnExitPlayMode, Serializable]
+    public abstract class ConsensusSO : ScriptableObject {
         [SerializeField] protected List<ScriptVotePair> scriptVotePairs = new();
         public bool consensus = true;
 
