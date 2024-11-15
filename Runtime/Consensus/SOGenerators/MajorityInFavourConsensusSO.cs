@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using UnityEngine;
 
-namespace Consensus.SO {
+namespace Consensus {
     [CreateAssetMenu(
         fileName = nameof(MajorityInFavourConsensusSO),
         menuName = "Scriptable Objects/GlobalData/Consensus/Create " + nameof(MajorityInFavourConsensusSO))]
