@@ -34,6 +34,11 @@ namespace Consensus {
 
         public void DeleteVote(ScriptVotePair scriptVote) => scriptVotePairs.Remove(scriptVote);
 
+        public void Clear() {
+            scriptVotePairs.Clear();
+            consensus = true;
+        }
+
         public abstract bool ConsensusRule();
     }
 }
